@@ -1,0 +1,22 @@
+All commands must start with a '?' character.
+?a - about
+?h - help
+?m - display current mode
+  t - set text_single mode:      
+  m - set text_multi mode - Not implemented
+  e - set hello_world mode
+  s - set square mode
+  c - set circle mode - Not implemented
+  w - set set switch select mode - Not implemented
+  h - display help
+*Not implemented modes will simply produce a blank display.
+
+?t - displays contents of selected buffer
+  w - overwites selected buffer with the 15 sucessive characters
+  s - returns the id of the selected buffer
+  i - returns what is in the display buffer
+  b - change the selected buffer
+  d - change the display buffer
+  h - display help
+
+?s - Not implemented
