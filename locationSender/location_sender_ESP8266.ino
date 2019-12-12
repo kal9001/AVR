@@ -15,7 +15,7 @@ HTTPClient data;
 void setup() {
   Serial.begin(250000);
   WiFi.mode(WIFI_STA);
-  wifiMulti.addAP("SKY46717", "YVBSLCLTLT");
+  wifiMulti.addAP("", "");
 
   // Wait for the Wi-Fi to connect
   while (wifiMulti.run() != WL_CONNECTED) {
